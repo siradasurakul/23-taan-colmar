@@ -182,7 +182,68 @@
 }
 /* End: section -- course-mobile-container */
 
+
 /* Start: section -- thesis-desktop-container */
 .thesis-desktop-container{
-    
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem;
 }
+.thesis-desktop-container>h2{
+    font-size: xx-large;
+    color: #4a4a4a;
+    text-align: center;
+    padding-bottom: 2rem ;
+}
+.thesis-content{
+    display: flex;
+}
+.thesis-main{
+    display: block;
+    width: 60%;
+}
+.thesis-main > video{
+    width: 100%;
+}
+.thesis-main-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: #3f3f3f;
+}
+.thesis-main-text>p{
+    /* font-size: large; */
+}
+
+
+.thesis-more{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+.thesis-more-item{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.thesis-more-item-img{
+    width: 35%;
+}
+.thesis-more-item-text{
+    padding-left: 16px;
+}
+.thesis-more-item-title{
+    color: #3f3f3f;
+    padding-bottom: 1rem;
+}    
+.thesis-more-item-description{
+    color: #3f3f3f;
+}
+
+
+/* Start: section -- thesis-mobile-container */
+.thesis-mobile-container{
+    display: none;
+}
+/* End: section -- thesis-mobile-container */
