@@ -154,6 +154,7 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .course-card{
     display: flex;
@@ -240,6 +241,7 @@
 .thesis-more-item-description{
     color: #3f3f3f;
 }
+/* End: section -- thesis-desktop-container */
 
 
 /* Start: section -- thesis-mobile-container */
@@ -247,3 +249,22 @@
     display: none;
 }
 /* End: section -- thesis-mobile-container */
+/* End: main*/
+
+
+/* Start: footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-top: 1px #e1e3e3 solid;
+}
+footer > p {
+    color: #363636;
+    font-size: small;
+}
+.nav-link{
+    color: #363636;
+    font-size: small;
+}
+/* End: footer*/
