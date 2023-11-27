@@ -1,0 +1,167 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/*Start: header*/
+/* Start: navbar-desktop-container */
+.navbar-desktop-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 24px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    height: 32px;
+}
+.logo-colmar{
+    font-weight: 600;
+    color: #454545
+}
+
+.navlink-container{
+    display: flex;
+    gap: 16px;
+    color: #393939;
+}
+/* End: navbar-desktop-container */
+
+/* Start: navbar-mobile-container */
+.navbar-mobile-container{
+    display: none;
+}
+/* End: navbar-mobile-container */
+/*End: header*/
+
+/* Start: main*/
+/* Start: section --hero-container */
+.hero-container{
+    background-color: #d8d8d8;
+    padding: 2rem 1.5rem;
+    display: flex;
+    gap: 24px;
+}
+.hero-img{
+    width: 60%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text>h2{
+    color: #4a4a4a;
+    font-size: 2rem;
+}
+.hero-text>h3{
+    color: #444444;
+    font-size: 1.5rem;
+}
+.hero-text>p{
+    display: block;
+    color: white;
+    background-color: #4a4a4a ;
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px 0;
+}
+/* End: section --hero-container */
+
+/* Start: section --info-container */
+/* Start: info-main */
+.info-container{
+    display: flex;
+    padding: 32px 24px;
+}
+.info-main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.info-main-img{
+   
+}
+.info-main-title{
+    color: #4a4a4a;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-top: 32px;
+}
+.info-main-description{
+    color: #4a4a4a;
+    font-size: large;
+    padding: 24px 0;
+}
+.info-author{
+    color: #363636;
+    font-size: large;
+    font-weight: 600;
+}
+/* End: info-main */
+/* Start: info-readmore */
+.info-readmore{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.info-readmore-item{
+    display: flex;
+    padding-left:24px;
+}
+.info-readmore-img{
+    width: 35%;
+}
+.info-readmore-text{
+    /* width: 65%; */
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-readmore-text-title{
+    font-size: large;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+.info-readmore-text-description{
+    font-size: large;
+    /* font-weight: 600; */
+    color: #4a4a4a;
+}
+.readmore{
+    color: #488fe2;
+    text-decoration: none;
+}
+/* End: info-readmore */
+/* End: section -- info-container */
+
+/* Start: section -- course-desktop-container */
+.course-desktop-container{
+    background-color: #eaebec;
+    padding: 32px 72px;
+}
+.course-desktop-container>h2{
+    font-size: xx-large;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 2rem 0;
+}
+.course-card-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.course-card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 400;
+    max-width: 480px;
+    background-color: #ffffff;
+}
+.course-img{
+    width: 100%;
+}
