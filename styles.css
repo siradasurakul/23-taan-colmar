@@ -158,10 +158,31 @@
 .course-card{
     display: flex;
     flex-direction: column;
-    flex: 1 1 400;
+    flex: 1 1 400px;
     max-width: 480px;
     background-color: #ffffff;
 }
 .course-img{
     width: 100%;
+}
+
+.course-text{
+    padding: 1rem 1rem 1.5rem 1rem;
+    color: #4a4a4a;
+}
+.course-course{
+    padding: 0.5rem 0;
+    color: #4a4a4a;
+}
+/* End: section -- course-desktop-container */
+
+/* Start: section -- course-mobile-container */
+.course-mobile-container{
+    display: none;
+}
+/* End: section -- course-mobile-container */
+
+/* Start: section -- thesis-desktop-container */
+.thesis-desktop-container{
+    
 }
